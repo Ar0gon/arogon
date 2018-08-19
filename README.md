@@ -1,4 +1,4 @@
-![image](https://prnt.sc/kkeq6p)
+![image](https://i.imgur.com/lmVleB3.png)
 
 [![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin)
 [![Build status](https://ci.appveyor.com/api/projects/status/an6je6l48eawteyg?svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
