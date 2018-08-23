@@ -31,7 +31,7 @@ If the script doesn't work for you:
 ##### Building
 
 - `git clone -b master --single-branch https://github.com/Ar0gon/arogon`
-- `cd turtlecoin`
+- `cd Arogon`
 - `mkdir build && cd $_`
 - `cmake ..`
 - `make`
@@ -47,7 +47,7 @@ If the script doesn't work for you:
 ##### Building
 
 - `git clone -b master https://github.com/Ar0gon/arogon`
-- `cd turtlecoin`
+- `cd Arogon`
 - `mkdir build && cd $_`
 - `cmake ..` or `cmake -DBOOST_ROOT=<path_to_boost_install> ..` when building
   from a specific boost install. If you used brew to install boost, your path is most likely `/usr/local/include/boost.`
@@ -72,21 +72,21 @@ Run `./src/Arogond` to connect to the network and let it sync (it may take a whi
 - `cd build`
 - Set the PATH variable for cmake: ie. `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
 - `cmake -G "Visual Studio 14 Win64" .. -DBOOST_ROOT=C:/local/boost_1_59_0` (Or your boost installed dir.)
-- `MSBuild TurtleCoin.sln /p:Configuration=Release /m`
+- `MSBuild Arogon.sln /p:Configuration=Release /m`
 - If all went well, it will complete successfully, and you will find all your binaries in the '..\build\src\Release' directory.
 - Additionally, a `.sln` file will have been created in the `build` directory. If you wish to open the project in Visual Studio with this, you can.
 
 #### Thanks
-Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Community
+Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, Arogon Community
 
 ### Copypasta for license when editing files
 
-Hi TurtleCoin contributor, thanks for forking and sending back Pull Requests. Extensive docs about contributing are in the works or elsewhere. For now this is the bit we need to get into all the files we touch. Please add it to the top of the files.
+Hi Arogon contributor, thanks for forking and sending back Pull Requests. Extensive docs about contributing are in the works or elsewhere. For now this is the bit we need to get into all the files we touch. Please add it to the top of the files.
 
 ```
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
-// Copyright (c) 2018, The TurtleCoin Developers
+// Copyright (c) 2018, The Arogon Developers
 // Copyright (c) 2018, The Arogon Developers 
 //
 // Please see the included LICENSE file for more information.

@@ -3,7 +3,7 @@ import ujson as json
 import sys
 import binascii
 
-to_address = "TRTLv3xYqUdAy4K8viYjNnMj21NLohHbf9ut2Cczxyh96d74TzxNgdB3aZbb9U2ZJ1DVmVpbDwzH77821o9ciNYQVaSt3V6bu7R"
+to_address = "AROGv3xYqUdAy4K8viYjNnMj21NLohHbf9ut2Cczxyh96d74TzxNgdB3aZbb9U2ZJ1DVmVpbDwzH77821o9ciNYQVaSt3V6bu7R"
 content = """
   _____     ____
  /      \  |  o |
