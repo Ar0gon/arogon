@@ -46,7 +46,7 @@ If the script doesn't work for you:
 
 ##### Building
 
-- `git clone -b master https://github.com/Ar0gon/arogon`
+- `git clone -b master https://github.com/Arogon-project/arogon`
 - `cd Arogon`
 - `mkdir build && cd $_`
 - `cmake ..` or `cmake -DBOOST_ROOT=<path_to_boost_install> ..` when building
