@@ -589,26 +589,35 @@ bool CryptoNoteProtocolHandler::on_connection_synchronized() {
       logger(INFO, WHITE) << " Always exit Arogond and zedwallet with the \"exit\" command to preserve your chain and wallet data." << ENDL ;
       logger(INFO, WHITE) << " Use the \"help\" command to see a list of available commands." << ENDL ;
       logger(INFO, WHITE) << " Use the \"export_keys\" command in zedwallet to display your keys for restoring a corrupted wallet." << ENDL ;
-      logger(INFO, WHITE) << " If you need more assistance, visit the #HELP channel in the Arogon Discord Chat - http://chat.Arogon.lol" << ENDL ;
+      logger(INFO, WHITE) << " If you need more assistance, visit the #HELP channel in the Arogon Discord Chat - http://chat.Arogon.xyz" << ENDL ;
       logger(INFO, BRIGHT_MAGENTA) << "===================================================" << ENDL << ENDL ;
 
       logger(INFO, BRIGHT_GREEN) <<
 
       #ifdef _WIN32
-      "\n _______         _   _       _____      _        \n"
-              "|__   __|       | | | |     / ____|    (_)      \n"
-              "   | |_   _ _ __| |_| | ___| |     ___  _ _ __  \n"
-              "   | | | | | '__| __| |/ _ \\ |    / _ \\| | '_ \\ \n"
-              "   | | |_| | |  | |_| |  __/ |___| (_) | | | | |\n"
-      "   |_|\\__ _|_|   \\__|_|\\___|\\_____\\___/|_|_| |_|\n" << ENDL;
+      "\n _______  _______  _______  _______  _______  _       \n"
+              "(  ___  )(  ____ )(  ___  )(  ____ \(  ___  )( (    /|\n"
+              "| (   ) || (    )|| (   ) || (    \/| (   ) ||  \  ( |\n"
+              "| (___) || (____)|| |   | || |      | |   | ||   \ | |\n"
+              "|  ___  ||     __)| |   | || | ____ | |   | || (\ \) |\n"
+			  "| (   ) || (\ (   | |   | || | \_  )| |   | || | \   |\n"
+			  "| )   ( || ) \ \__| (___) || (___) || (___) || )  \  |\n"
+			  "|/     \||/   \__/(_______)(_______)(_______)|/    )_)\n"
+      "\n" << ENDL;
       #else
       "\n                                                                            \n"
-        "████████╗██╗  ██╗██████╗ ████████╗██╗    ██████╗ █████╗ █████╗ ██╗███╗   ██╗\n"
-        "╚══██╔══╝██║  ██║██╔══██╗╚══██╔══╝██║    ██╔═══╝██╔═══╝██╔══██╗██║████╗  ██║\n"
-        "   ██║   ██║  ██║██████╔╝   ██║   ██║    ████╗  ██║    ██║  ██║██║██╔██╗ ██║\n"
-        "   ██║   ██║  ██║██╔══██╗   ██║   ██║    ██╔═╝  ██║    ██║  ██║██║██║╚██╗██║\n"
-        "   ██║   ╚█████╔╝██║  ██║   ██║   ██████╗██████╗╚█████╗╚█████╔╝██║██║ ╚████║\n"
-        "   ╚═╝    ╚════╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝╚═════╝ ╚════╝ ╚════╝ ╚═╝╚═╝  ╚═══╝\n" << ENDL;
+        "                                                                             \n"
+        "       db                                                                    \n"
+        "      d88b                                                                   \n"
+        "     d8'`8b                                                                  \n"
+        "    d8'  `8b     8b,dPPYba,  ,adPPYba,   ,adPPYb,d8  ,adPPYba,  8b,dPPYba,   \n"
+		"   d8YaaaaY8b    88P'   "Y8 a8"     "8a a8"    `Y88 a8"     "8a 88P'   `"8a  \n"
+		"  d8""""""""8b   88         8b       d8 8b       88 8b       d8 88       88  \n"
+		" d8'        `8b  88         "8a,   ,a8" "8a,   ,d88 "8a,   ,a8" 88       88  \n"
+		"d8'          `8b 88          `"YbbdP"'   `"YbbdP"Y8  `"YbbdP"'  88       88  \n"
+		"                                         aa,    ,88                          \n"
+		"                                          "Y8bbdP"                           \n"
+        "\n" << ENDL;
       #endif
 
     m_observerManager.notify(&ICryptoNoteProtocolObserver::blockchainSynchronized, m_core.getTopBlockIndex());
