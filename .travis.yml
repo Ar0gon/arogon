@@ -25,7 +25,7 @@ script:
 before_deploy:
 - cd src
 - mkdir Arogon-${TRAVIS_TAG}
-- mv Arogond miner zedwallet turtle-service  Arogon-${TRAVIS_TAG}/
+- mv Arogond miner zedwallet arogon-service  Arogon-${TRAVIS_TAG}/
 - cp ../../LICENSE Arogon-${TRAVIS_TAG}/
 - tar cvfz Arogon-${TRAVIS_TAG}-${TRAVIS_OS_NAME}.tar.gz Arogon-${TRAVIS_TAG}/
 deploy:
@@ -36,5 +36,5 @@ deploy:
     - Arogon-${TRAVIS_TAG}-${TRAVIS_OS_NAME}.tar.gz
   skip_cleanup: true
   on:
-    repo: Arogon/Arogon
+    repo: Arogon-project/Arogon
     tags: true
