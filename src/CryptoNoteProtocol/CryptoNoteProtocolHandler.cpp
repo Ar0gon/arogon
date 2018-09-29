@@ -611,12 +611,12 @@ bool CryptoNoteProtocolHandler::on_connection_synchronized() {
         "      d88b                                                                   \n"
         "     d8'`8b                                                                  \n"
         "    d8'  `8b     8b,dPPYba,  ,adPPYba,   ,adPPYb,d8  ,adPPYba,  8b,dPPYba,   \n"
-		"   d8YaaaaY8b    88P'   "Y8 a8"     "8a a8"    `Y88 a8"     "8a 88P'   `"8a  \n"
-		"  d8""""""""8b   88         8b       d8 8b       88 8b       d8 88       88  \n"
-		" d8'        `8b  88         "8a,   ,a8" "8a,   ,d88 "8a,   ,a8" 88       88  \n"
-		"d8'          `8b 88          `"YbbdP"'   `"YbbdP"Y8  `"YbbdP"'  88       88  \n"
+		"   d8YaaaaY8b    88P'   \"Y8 a8\"     \"8a a8\"    `Y88 a8\"     \"8a 88P'   `\"8a  \n"
+		"  d8\"\"\"\"\"\"\"\"8b   88         8b       d8 8b       88 8b       d8 88       88  \n"
+		" d8'        `8b  88         \"8a,   ,a8\" \"8a,   ,d88 \"8a,   ,a8\" 88       88  \n"
+		"d8'          `8b 88          `\"YbbdP\"'   `\"YbbdP\"Y8  `\"YbbdP\"'  88       88  \n"
 		"                                         aa,    ,88                          \n"
-		"                                          "Y8bbdP"                           \n"
+		"                                          \"Y8bbdP\"                           \n"
         "\n" << ENDL;
       #endif
 
