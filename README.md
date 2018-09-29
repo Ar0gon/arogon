@@ -1,7 +1,7 @@
 ![image](https://i.imgur.com/lmVleB3.png)
 
 
-[![Build Status](https://travis-ci.com/Arogon-project/arogon.svg?branch=development)]
+![Build Status](https://travis-ci.com/Arogon-project/arogon.svg?branch=development)
 ### How To Compile
 
 On Linux or Mac on a non standard architecture, and can't get GNU Readline/Ncurses compiled?
