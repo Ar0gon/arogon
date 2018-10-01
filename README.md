@@ -31,7 +31,7 @@ If the script doesn't work for you:
 
 ##### Building
 
-- `git clone -b master --single-branch https://github.com/Ar0gon/arogon`
+- `git clone -b master --single-branch https://github.com/Arogon-project/arogon`
 - `cd Arogon`
 - `mkdir build && cd $_`
 - `cmake ..`
